@@ -1,0 +1,91 @@
+body {
+    background: #BCBBB8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+nav {
+    background: #343a40;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-form input[type="search"] {
+    padding: 6px;
+    width: 200px;
+    border: none;
+}
+
+.search-form button {
+    padding: 6px 10px;
+    background: #343a40;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+h1 {
+    color: mediumseagreen;
+    text-align: left;
+    font-size: 28px;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #343a40;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
